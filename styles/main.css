@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'CreatoDisplay-Regular';
+  src: url('assets/font/CreatoDisplay-Regular.otf') format('opentype');
+}
+
+body {
+  background-image: url('file:///C:/Users/hp/Desktop/infinix/assets/images/construction_bg.svg');
+
+
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'CreatoDisplay-Regular', sans-serif;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  background-image: url('assets/images/overlay.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.logo {
+
+  /* position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2; */
+
+}
+
+.heading {
+
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  margin-top: 150px;
+
+
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.91em;
+  text-align: center;
+
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.under-construction-text {
+  font-family: 'CreatoDisplay-Regular', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.loader {
+  background: rgba(105, 211, 219, 1);
+  height: 22px;
+  border-radius: 61px;
+  display: flex;
+  flex: 0.4;
+}
+
+.loader-container {
+  display: flex;
+  flex: 1;
+  width: 70%;
+  height: 22px;
+  background: rgba(255, 231, 231, 0.1);
+  border-radius: 61px;
+}
+
+.bottom-content {
+  font-family: 'CreatoDisplay-Regular', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  margin-top: 140px;
+}
+
+.profile-button {
+  width: 230px;
+  height: 59px;
+  top: 200px;
+  left: 605px;
+  border-radius: 53px;
+  background: rgba(51, 144, 151, 1);
+  color: white;
+
+}
+
+.profile-button a {
+  font-family: 'CreatoDisplay-Regular', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+button,
+a {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
