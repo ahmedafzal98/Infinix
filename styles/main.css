@@ -4,7 +4,9 @@
 }
 
 body {
-  background-image: url('../assets/images/construction_bg.svg');
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: url('../assets/images/background.jpeg');
   margin: 0;
   padding: 0;
 
@@ -22,7 +24,7 @@ body {
   right: 20px;
   bottom: 20px;
   left: 20px;
-  background-image: url('../assets/images/overlay.svg');
+  background-image: url('../assets/images/overlay.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,11 +88,10 @@ body {
 }
 
 .loader-container {
+  background: rgba(255, 231, 231, 0.1);
   display: flex;
   flex: 1;
   width: 70%;
-  height: 22px;
-  background: rgba(255, 231, 231, 0.1);
   border-radius: 61px;
 }
 
@@ -102,7 +103,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
-  margin-top: 140px;
+  margin-top: 10%;
 }
 
 .profile-button {
@@ -136,4 +137,15 @@ a {
   cursor: pointer;
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+ 
+  }
+  .bottom-content{
+    margin-top: 5%;
+  }
 }
