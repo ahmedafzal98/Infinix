@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   overflow-y: scroll;
+  scroll-behavior: smooth;
   background-image: url('../assets/images/background.jpeg');
   margin: 0;
   padding: 0;
@@ -146,6 +147,6 @@ a {
  
   }
   .bottom-content{
-    margin-top: 5%;
+    font-size: 18px;
   }
 }
