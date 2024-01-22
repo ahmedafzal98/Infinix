@@ -1,0 +1,15 @@
+.bottom-content {
+  font-family: "CreatoDisplay-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+@media screen and (max-width: 400px) {
+  .bottom-content {
+    font-size: 18px;
+  }
+}

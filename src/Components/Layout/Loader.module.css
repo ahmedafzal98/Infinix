@@ -1,0 +1,15 @@
+.loader {
+  background: rgba(105, 211, 219, 1);
+  height: 22px;
+  border-radius: 61px;
+  display: flex;
+  flex: 0.4;
+}
+
+.loader-container {
+  background: rgba(255, 231, 231, 0.1);
+  display: flex;
+  flex: 1;
+  width: 70%;
+  border-radius: 61px;
+}

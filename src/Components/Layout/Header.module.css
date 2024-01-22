@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading {
+  font-weight: 400;
+  font-size: 28px;
+  color: white;
+  margin-top: 150px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.91em;
+  text-align: center;
+}
+.under-construction-text {
+  font-family: "CreatoDisplay-Regular", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}

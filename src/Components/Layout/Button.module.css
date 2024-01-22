@@ -1,0 +1,30 @@
+.profile-button {
+  width: 230px;
+  height: 59px;
+  top: 200px;
+  left: 605px;
+  border-radius: 53px;
+  background: rgba(51, 144, 151, 1);
+  color: white;
+}
+
+.profile-button a {
+  font-family: "CreatoDisplay-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+button,
+a {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
