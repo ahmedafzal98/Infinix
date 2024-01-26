@@ -25091,7 +25091,7 @@ Webflow.require("ix2").init({
                                         easing: "",
                                         duration: 500,
                                         target: { useEventTarget: "CHILDREN", selector: ".services-track", selectorGuids: ["760d2d70-2503-6b43-ed1d-2a56b44f0e9e"] },
-                                        xValue: 80,
+                                        xValue: 0,
                                         xUnit: "%",
                                         yUnit: "PX",
                                         zUnit: "PX",
